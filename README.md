@@ -14,6 +14,9 @@ use './check_twitter_account.sh username'
 e.g
 For an account that does not exist.
 
+
+
+----------------------------------------------------------------------------------------
  ./check_twitter_account.sh zaxkloneeee
 
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
@@ -25,12 +28,14 @@ location: https://twitter.com/zaxkloneeee
 HTTP/1.1 404 Not Found
 -------------------------------------------
 
+----------------------------------------------------------------------------------------
 
 
 
 e.g
 For an account that does not exist.
 
+----------------------------------------------------------------------------------------
  ./check_twitter_account.sh zaxklone
 
 
@@ -42,10 +47,15 @@ HTTP/1.1 301 Moved Permanently
 location: https://twitter.com/zaxklone
 HTTP/1.1 200 OK
 -------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+
 
 e.g
 For an account that is suspended.
 
+----------------------------------------------------------------------------------------
  ./check_twitter_account.sh Diana_lxz
 
 
@@ -63,3 +73,4 @@ location: https://twitter.com/account/suspended
 HTTP/1.1 200 OK
 -------------------------------------------
 
+----------------------------------------------------------------------------------------
