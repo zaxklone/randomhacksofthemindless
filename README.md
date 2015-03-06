@@ -2,75 +2,9 @@
 Just a bunch of random scripts that i found useful and thought i should share. 
 
 check_twitter_account.sh
-+++++++++++++++++++++++++
+-------------------------
 
 is a basic script that uses curl to look up a twitter account and displays whether it exists or not or is suspended
 and its requests 
 
-
-use 'sh check_twitter_account.sh username'
-use './check_twitter_account.sh username'
-
-e.g
-For an account that does not exist.
-
-
-
-----------------------------------------------------------------------------------------
- ./check_twitter_account.sh zaxkloneeee
-
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  0  4311    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
-HTTP/1.1 301 Moved Permanently
-location: https://twitter.com/zaxkloneeee
-HTTP/1.1 404 Not Found
--------------------------------------------
-
-----------------------------------------------------------------------------------------
-
-
-
-e.g
-For an account that does not exist.
-
-----------------------------------------------------------------------------------------
- ./check_twitter_account.sh zaxklone
-
-
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
-  0  224k    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
-HTTP/1.1 301 Moved Permanently
-location: https://twitter.com/zaxklone
-HTTP/1.1 200 OK
--------------------------------------------
-----------------------------------------------------------------------------------------
-
-
-
-
-e.g
-For an account that is suspended.
-
-----------------------------------------------------------------------------------------
- ./check_twitter_account.sh Diana_lxz
-
-
-
-
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
-  0   103    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0
-  0 53405    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0
-HTTP/1.1 301 Moved Permanently
-location: https://twitter.com/Diana_lxz
-HTTP/1.1 302 Found
-location: https://twitter.com/account/suspended
-HTTP/1.1 200 OK
--------------------------------------------
-
-----------------------------------------------------------------------------------------
+[see examples](check_twitter_examples)
